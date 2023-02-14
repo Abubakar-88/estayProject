@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-14T12:39:14.644Z",
+        "start_timestamp": "2023-02-14T13:12:54.088Z",
         "before": [
           {
             "result": {
-              "duration": 3114528800,
+              "duration": 2737890700,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 997400,
+              "duration": 2993900,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 45889023400,
+              "duration": 2667956300,
               "status": "passed"
             },
             "line": 4,
@@ -47,55 +47,13 @@
           },
           {
             "result": {
-              "duration": 2184988700,
+              "duration": 638678000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I hover on Wedding \u0026 Party",
-            "match": {
-              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_hover_on_Wedding_Party()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3189626100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I hover on Wedding jewellery",
-            "match": {
-              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_hover_on_Wedding_jewellery()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 42822890900,
-              "status": "passed"
-            },
-            "line": 7,
             "name": "I click on jewllery set",
             "match": {
               "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_click_on_jewllery_set()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2342752400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I will see \"wine\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"wine\"",
-                  "offset": 11
-                }
-              ],
-              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_will_see(java.lang.String)"
             },
             "keyword": "Then "
           }

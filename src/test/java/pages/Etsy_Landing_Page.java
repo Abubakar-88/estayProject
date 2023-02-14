@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -19,32 +20,18 @@ public class Etsy_Landing_Page extends Base {
 	}
 	
 	public void navigateURL() {
-		driver.get("https://www.etsy.com/");
+		driver.get("https://it.microtechlimited.com/");
 	}
 
 	
-	@FindBy(xpath="//span[@id='catnav-primary-link-10983']")
-	WebElement hoverWeddingAndParty;
+	@FindBy(xpath="//a[@href='elogin.php']")
+	WebElement custLoginBtn;
 	
-	@FindBy(xpath="//div//ul//span[@id='side-nav-category-link-11039']")
-	WebElement hoverWeddingJwellery;
 	
-	@FindBy(xpath="//a[@id='catnav-l3-11047']")
-	WebElement clcikJwellerySet;
-	
-	public void hover_Wedding_And_Party() {
-		Actions action = new Actions(driver);
-		action.moveToElement(hoverWeddingAndParty).build().perform();
-	}
-	
-	public void hover_Wedding_Jwellery() {
-		Actions action = new Actions(driver);
-		action.moveToElement(hoverWeddingJwellery).build().perform();
-	}
 
 	
 	 public void click_Jwellery_Set() {
-		 clcikJwellerySet.click();
+		 custLoginBtn.click();
 	}
 
 }
