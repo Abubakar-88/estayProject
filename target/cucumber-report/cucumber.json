@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-14T12:39:14.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3114528800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify wine is displayed",
+        "description": "",
+        "id": "verify-in-etsy-wine-is-displayed;verify-wine-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45889023400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in etsy home page",
+            "match": {
+              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_am_in_etsy_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2184988700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hover on Wedding \u0026 Party",
+            "match": {
+              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_hover_on_Wedding_Party()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3189626100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hover on Wedding jewellery",
+            "match": {
+              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_hover_on_Wedding_jewellery()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42822890900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on jewllery set",
+            "match": {
+              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_click_on_jewllery_set()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2342752400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will see \"wine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wine\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Verify_In_Etsy_Jwellery_Wine_Is_Displayed.i_will_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify In Etsy Wine is displayed",
+    "description": "",
+    "id": "verify-in-etsy-wine-is-displayed",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Verify_In_Etsy_Jwellery_Wine_Is_Displayed.feature",
+    "tags": []
+  }
+]
