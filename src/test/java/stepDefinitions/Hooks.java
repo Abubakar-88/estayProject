@@ -22,7 +22,7 @@ public class Hooks extends Base {
 		ChromeOptions option = new ChromeOptions();
 		  option.addArguments("headless");
 		option.addArguments("disable-gpu");
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(option);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
