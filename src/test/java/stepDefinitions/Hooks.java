@@ -19,6 +19,7 @@ public class Hooks extends Base {
 	@Before
 	public void setup() {
 		ChromeOptions option = new ChromeOptions();
+		  option.addArguments("start-maximized");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(option);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
