@@ -18,9 +18,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Hooks extends Base {
 	@Before
 	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions option = new ChromeOptions();
-		  option.addArguments("start-maximized");
-		WebDriverManager.chromedriver().setup();
+		  option.addArguments("headless");
+		option.addArguments("disable-gpu");
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(option);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
