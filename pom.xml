@@ -26,10 +26,7 @@
 			<version>${selenium.version}</version>
 		</dependency>
 		<dependency>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>chromedriver</artifactId>
-    <version>1.2</version>
-</dependency>
+  
 		<dependency><!-- webdrivermanager -->
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
