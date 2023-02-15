@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Hooks extends Base {
 	@Before
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions option = new ChromeOptions();
 		  option.addArguments("headless");
 		option.addArguments("disable-gpu");
